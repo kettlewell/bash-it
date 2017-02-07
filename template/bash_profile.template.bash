@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 
+# set custom dir to be my dotfiles dir
+# but only if it exists
+if [[ -f ${HOME}/dotfiles/bash-it ]]; then
+  export BASH_IT_CUSTOM="${HOME}/dotfiles/bash-it"
+fi
+
 # Path to the bash it configuration
 export BASH_IT="{{BASH_IT}}"
 

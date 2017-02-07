@@ -58,13 +58,13 @@ done
 source $APPEARANCE_LIB
 
 # Load custom aliases, completion, plugins
-for file_type in "aliases" "completion" "plugins"
-do
-  if [ -e "${BASH_IT}/${file_type}/custom.${file_type}.bash" ]
-  then
-    source "${BASH_IT}/${file_type}/custom.${file_type}.bash"
-  fi
-done
+# for file_type in "aliases" "completion" "plugins"
+# do
+#   if [ -e "${BASH_IT}/${file_type}/custom.${file_type}.bash" ]
+#   then
+#     source "${BASH_IT}/${file_type}/custom.${file_type}.bash"
+#   fi
+# done
 
 # Custom
 CUSTOM="${BASH_IT_CUSTOM:=${BASH_IT}/custom}/*.bash"
@@ -86,8 +86,7 @@ PREVIEW="less"
 [ -s /Applications/Preview.app ] && PREVIEW="/Applications/Preview.app"
 
 # Load all the Jekyll stuff
-
-if [ -e "$HOME/.jekyllconfig" ]
-then
-  . "$HOME/.jekyllconfig"
-fi
+# if [ -e "$HOME/.jekyllconfig" ]
+# then
+#  . "$HOME/.jekyllconfig"
+# fi
