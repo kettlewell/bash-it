@@ -1,8 +1,6 @@
 .atom-build.json
 */enabled/*
 .DS_Store
-custom/*
-!custom/example.bash
 .rvmrc
 aliases/custom.aliases.bash
 completion/custom.completion.bash
@@ -12,3 +10,4 @@ plugins/custom.plugins.bash
 .*.un~
 bats
 .idea
+TODO.org
