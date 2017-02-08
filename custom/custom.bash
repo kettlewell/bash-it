@@ -1,3 +1,13 @@
+#!/usr/bin/env bash
+echo $BASH_IT
+
+if [[ -f ${BASH_IT}/custom/custom.aliases ]];then
+  . ${BASH_IT}/custom/custom.aliases
+  echo "Custom.aliases loading"
+fi
+
+echo "Custom.bash loaded ... "
+
 # TODO:
 #        Need to distinguish between work and home environments.
 #        consider a sentinel file on work machines

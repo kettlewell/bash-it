@@ -1,1 +1,3 @@
 #!/usr/bin/env bash
+
+alias emacs='~/Downloads/emacs-25.1/emacs-25.1/src/emacs-25.1.1 -nw'

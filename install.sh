@@ -13,6 +13,26 @@ function show_usage() {
   exit 0;
 }
 
+
+# Functions to install/load config files
+# for non-bash specific tools
+# install Xresources
+function install_xrsources() {
+  echo "install_xresources"
+}
+
+# install vimrc
+function install_vimrc() {
+  echo "install_vimrc"
+}
+
+# install tmux
+function install_tmux() {
+  echo "install_tmux"
+}
+
+
+
 # enable a thing
 function load_one() {
   file_type=$1
