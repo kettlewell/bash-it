@@ -4,4 +4,3 @@ alias snx='~/bin/syncscripts.sh'
 
 alias vi=vim
 alias ls='ls -lhA --color=always'
-
