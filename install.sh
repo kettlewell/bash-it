@@ -187,9 +187,19 @@ else
   load_one aliases general.aliases.bash
 fi
 
+# Reload Library
+case $OSTYPE in
+  darwin*)
+    source ~/.bash_profile
+    ;;
+  *)
+    source ~/.bashrc
+    ;;
+esac
+
 echo ""
 echo -e "\033[0;32mInstallation finished successfully! Enjoy bash-it!\033[0m"
-echo -e "\033[0;32mTo start using it, open a new tab or 'source "$HOME/$CONFIG_FILE"'.\033[0m"
+# echo -e "\033[0;32mTo start using it, open a new tab or 'source "$HOME/$CONFIG_FILE"'.\033[0m"
 echo ""
 echo "To show the available aliases/completions/plugins, type one of the following:"
 echo "  bash-it show aliases"
