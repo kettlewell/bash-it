@@ -5,7 +5,7 @@ if [[ ! -f ${HOME}/.bash.home ]];then
   return
 fi
 
-$ echo "home.bash loaded..."
+# echo "home.bash loaded..."
 
 if [[ -f ${BASH_IT}/custom/home.aliases ]]; then
   . ${BASH_IT}/custom/home.aliases

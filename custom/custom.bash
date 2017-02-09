@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-echo $BASH_IT
 #echo "custom.bash loading"
 if [[ -f ${BASH_IT}/custom/custom.aliases ]];then
   . ${BASH_IT}/custom/custom.aliases
