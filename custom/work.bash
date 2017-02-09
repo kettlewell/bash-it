@@ -1,15 +1,15 @@
 #!/usr/bin/env bash
 
 if [[ ! -f ${HOME}/.bash.work ]];then
-  echo "${HOME}/.bash.work not found... ignoring"
+  # echo "${HOME}/.bash.work not found... ignoring"
   return
 fi
 
-echo "work.bash loaded..."
+# echo "work.bash loaded..."
 
 if [[ -f ${BASH_IT}/custom/work.aliases ]]; then
   . ${BASH_IT}/custom/work.aliases
-  echo "Loading work.aliases"
+  # echo "Loading work.aliases"
 fi
 
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"

@@ -135,7 +135,8 @@ _bash-it_update() {
     git pull --rebase &> /dev/null
     if [[ $? -eq 0 ]]; then
       echo "Bash-it successfully updated, enjoy!"
-      reload
+      ${BASH_IT}/install.sh
+      #reload
     else
       echo "Error updating Bash-it, please, check if your Bash-it installation folder (${BASH_IT}) is clean."
     fi

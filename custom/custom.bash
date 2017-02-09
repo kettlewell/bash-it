@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 echo $BASH_IT
-
+#echo "custom.bash loading"
 if [[ -f ${BASH_IT}/custom/custom.aliases ]];then
   . ${BASH_IT}/custom/custom.aliases
-  echo "Custom.aliases loading"
+  # echo "Custom.aliases loading"
 fi
 
-echo "Custom.bash loaded ... "
+# echo "Custom.bash loaded ... "
 
 # TODO:
 #        Need to distinguish between work and home environments.
@@ -23,7 +23,7 @@ shopt -s checkwinsize
 # xrdb -merge ~/.Xresources
 
 # export PATH="/home/matt/dotfiles/scripts:/home/matt/dotfiles/scripts/Ansible/Deploy:/home/matt/p4bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:$HOME/.rvm/bin:/usr/pgsql-9.4/bin"
-export PATH="/home/matt/dotfiles/scripts:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 EDITOR='emacs'
 VISUAL='emacs'
 ALTERNATE_EDITOR='vim'
