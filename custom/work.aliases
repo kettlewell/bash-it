@@ -4,3 +4,4 @@ alias snx='~/bin/syncscripts.sh'
 
 alias vi=vim
 alias ls='ls -hAGFp'
+alias less='less -s -X -F -R'
