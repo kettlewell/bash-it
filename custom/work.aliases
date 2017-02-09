@@ -3,4 +3,4 @@ alias notes='emacs ~/Notes/notes.md'
 alias snx='~/bin/syncscripts.sh'
 
 alias vi=vim
-alias ls='ls -lhA --color=always'
+alias ls='ls -hAGFp'
