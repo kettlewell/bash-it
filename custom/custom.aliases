@@ -51,6 +51,7 @@ alias l='ls -CF'
 # alias rxvt=urxvtc
 # alias term=urxvtc
 
+alias ss='python -m SimpleHTTPServer 8000'
 alias ppxml='python -c "import sys, xml.dom.minidom; print xml.dom.minidom.parseString(sys.stdin.read()).toprettyxml()"'
 alias pp="jq '.'"
 
