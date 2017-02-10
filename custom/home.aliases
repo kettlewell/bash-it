@@ -1,1 +1,1 @@
-alias emacs='~/Downloads/emacs-25.1/emacs-25.1/src/emacs-25.1.1 -nw'
+alias emacs='/home/matt/Downloads/emacs-25.1/emacs-25.1/src/emacs-25.1.1 -nw'
